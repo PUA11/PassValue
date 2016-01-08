@@ -15,6 +15,8 @@
 		8D89DEA51C3FA2BF009F9E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D89DEA31C3FA2BF009F9E98 /* LaunchScreen.storyboard */; };
 		8D89DEB01C3FA2BF009F9E98 /* PassValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D89DEAF1C3FA2BF009F9E98 /* PassValueTests.m */; };
 		8D89DEBB1C3FA2BF009F9E98 /* PassValueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D89DEBA1C3FA2BF009F9E98 /* PassValueUITests.m */; };
+		8D89DECA1C3FA2D5009F9E98 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D89DEC91C3FA2D5009F9E98 /* SecondViewController.m */; };
+		8D89DECD1C3FBB25009F9E98 /* Single.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D89DECC1C3FBB25009F9E98 /* Single.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		8D89DEB61C3FA2BF009F9E98 /* PassValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D89DEBA1C3FA2BF009F9E98 /* PassValueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassValueUITests.m; sourceTree = "<group>"; };
 		8D89DEBC1C3FA2BF009F9E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D89DEC81C3FA2D5009F9E98 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8D89DEC91C3FA2D5009F9E98 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8D89DECB1C3FBB25009F9E98 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		8D89DECC1C3FBB25009F9E98 /* Single.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Single.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				8D89DE991C3FA2BF009F9E98 /* AppDelegate.m */,
 				8D89DE9B1C3FA2BF009F9E98 /* ViewController.h */,
 				8D89DE9C1C3FA2BF009F9E98 /* ViewController.m */,
+				8D89DEC81C3FA2D5009F9E98 /* SecondViewController.h */,
+				8D89DEC91C3FA2D5009F9E98 /* SecondViewController.m */,
+				8D89DECB1C3FBB25009F9E98 /* Single.h */,
+				8D89DECC1C3FBB25009F9E98 /* Single.m */,
 				8D89DE9E1C3FA2BF009F9E98 /* Main.storyboard */,
 				8D89DEA11C3FA2BF009F9E98 /* Assets.xcassets */,
 				8D89DEA31C3FA2BF009F9E98 /* LaunchScreen.storyboard */,
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D89DECA1C3FA2D5009F9E98 /* SecondViewController.m in Sources */,
 				8D89DE9D1C3FA2BF009F9E98 /* ViewController.m in Sources */,
+				8D89DECD1C3FBB25009F9E98 /* Single.m in Sources */,
 				8D89DE9A1C3FA2BF009F9E98 /* AppDelegate.m in Sources */,
 				8D89DE971C3FA2BF009F9E98 /* main.m in Sources */,
 			);

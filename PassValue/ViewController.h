@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(void)passName:(NSString *)name;
 
 @end
 
